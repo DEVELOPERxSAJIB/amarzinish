@@ -1,0 +1,66 @@
+.bkash-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 100px 0;
+  }
+  
+  .bkash-container {
+    background-color: #ad0074;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .bkash-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bkash-form input,
+  .bkash-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .bkash-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff009d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bkash-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bkash-response {
+    margin-top: 20px;
+  }
+  
+  .bkash-link {
+    display: block;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .bkash-link:hover {
+    background-color: #218838;
+  }
+  
+  .bkash-error {
+    color: #dc3545;
+  }
+  

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+h4, p {
+  margin: 0;
+}
+
+.ant-card {
+  background-color: transparent;
+}
+.ant-card .ant-card-body {
+  padding: 0px;
+  border-radius: 0 0 8px 8px;
+}
+
+.ant-card .ant-card-body img {
+  border-radius: 20px;
+}
+
+:where(.css-dev-only-do-not-override-j9bb5n).ant-card-bordered {
+  border: 0px solid #f0f0f0;
+}
+
+:where(.css-dev-only-do-not-override-j9bb5n).ant-card-hoverable:hover {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-ssjpa4).ant-btn-primary {
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
+}
+.ant-modal-header {
+	text-align: center;
+}
+
+.ant-upload.ant-upload-select {
+	width: 100% !important;
+}
+
+.ant-upload-list-item.ant-upload-list-item-error {
+	border: 1px solid #0000001a !important;
+}
